@@ -1,0 +1,126 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+header {
+	background: linear-gradient(rgba(37, 32, 68, 0.8), rgba(20, 34, 37, 0.8)), url(https://wallpaperaccess.com/full/148423.jpg);
+	height: 100vh;
+    width: 100vw;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.section{
+	width: 100%;
+	min-height: 100vh;
+}
+.title{ 
+	color: lightsalmon;
+}
+.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	margin-right: 20px;
+	width: 40%;
+}
+.image-section img{
+	width: 40vw;
+	height: 50vh;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+}
+.content-section .content h3{
+	margin-top: 20px;
+	color:#d9e3e9;
+	font-size: 21px;
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+
+.content-section .social{
+	margin: 40px 40px;
+}
+.content-section .social i{
+	color:rgb(28, 179, 179);
+	font-size: 30px;
+	padding:0px 10px;
+}
+.content-section .social i:hover{
+	color:#3d3d3d;
+}
+
+.owner{
+	color: lightgray;
+}
+@media screen and (max-width: 768px)
+    {
+        .container{
+        width: 80%;
+        display: block;
+        margin:auto;
+        padding-top:50px;
+    }
+    .content-section{
+        float:none;
+        width:100%;
+        display: block;
+        margin:auto;
+    }
+    .image-section{
+        float:none;
+        width:100%;
+        
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin:auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding:9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    height: 100%;
+}
+
+#mynetwork {
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightgray;
+}
+
+header {
+	background:url(https://wallpaperaccess.com/full/148423.jpg);
+	height: 100vh;
+    width: 100vw;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+
+#container2 {
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#mynetwork2{
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    width: 100%;
+    height: 70%;
+    background-color: rgba(252, 251, 255, 0.904);
+    display: flex;
+    margin: 0 auto;
+}
+
+#generate-graph{
+    margin:auto;
+    display:block;
+}
+
+
+#solve{
+    margin:auto;
+    display:block;
+}
